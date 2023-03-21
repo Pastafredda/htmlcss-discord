@@ -1,0 +1,241 @@
+/* Regole Generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* Regole Header */
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding-top: 20px;
+    height: 500px;
+}
+
+.centratura{
+    width: 80%;
+    margin: auto;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-bottom: 120px;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 440px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.button{
+    border-radius: 14px;
+    border: none;
+    background-color: white;
+    padding: 5px 8px;
+    margin-right: 10px;
+}
+
+.hero .button{
+    padding: 8px;
+}
+
+.black{
+    background-color: #23272A;
+    color: white;
+}
+
+.hero{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    line-height: 24px;
+    color: white;
+    
+}
+
+.hero p{
+    margin-bottom: 10px;
+}
+
+.hero h1{
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+
+
+/* Parte del main */
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.immagine{
+    width: 60%;
+}
+
+.descrizione{
+    width: 30%;
+    padding-top: 30px;
+    line-height: 24px;
+    
+}
+
+.descrizione h2{
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.banner{
+    position: relative;
+    padding-bottom: 150px;
+
+}
+
+.gray{
+    background-color: #F5F5F5;
+
+}
+
+.grayw{
+    background-color: #F5F5F5;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+.banner .wave{
+    position: absolute;
+    bottom: 0;
+}
+
+/* Ultima sezione(diversa dalle altre) */
+
+.section4{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 80px;
+}
+
+.section4 h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.section4 p{
+    line-height: 22px;
+    
+}
+
+.end-section{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.end-section .button{
+    background-color: #7289DA;
+    color: white;
+    margin-top: 30px;
+    padding: 8px;
+    
+}
+
+/* Inizio del footer */
+footer{
+    background-color: #23272A;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.italia img {
+    width: 24px;
+    
+}
+
+#italiano{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.italia{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.social{
+    width: 20%;
+}
+
+.icone-social{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.social h3{
+    color:#7289D9 ;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.nav-footer{
+    list-style-type: none;
+    line-height: 34px;
+    
+}
+
+.nav-footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-footer li{
+    color:#7289D9 ;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #7289D9;
+}
+
+.footer-logo .button{
+    background-color: #7289DA;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+
