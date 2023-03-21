@@ -14,9 +14,8 @@ body{
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    padding-top: 10px;
-
-    
+    padding-top: 20px;
+    height: 500px;
 }
 
 .centratura{
@@ -36,7 +35,7 @@ header{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    flex-basis: 400px;
+    flex-basis: 440px;
 }
 
 .menu a{
@@ -49,7 +48,16 @@ header{
     border: none;
     background-color: white;
     padding: 5px 8px;
-    
+    margin-right: 10px;
+}
+
+.hero .button{
+    padding: 8px;
+}
+
+.black{
+    background-color: #23272A;
+    color: white;
 }
 
 .hero{
@@ -58,47 +66,37 @@ header{
     text-align: center;
     line-height: 24px;
     color: white;
-    padding-bottom: 60px;
+    
 }
 
 .hero p{
     margin-bottom: 10px;
 }
 
-.hero :first-child{
+.hero h1{
     margin-bottom: 30px;
     font-size: 34px;
 }
 
-.hero .button{
-    padding: 10px;
-    margin: 10px;
-}
-
-.hero :last-child{
-    background-color: black;
-    color: white;
-}
 
 /* Parte del main */
 
 .flex{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 100px;
-   
 }
-
 
 .immagine{
     width: 60%;
-
 }
 
 .descrizione{
-    width: 30%
+    width: 30%;
+    padding-top: 30px;
+    
 }
+
 .descrizione h2{
     font-size: 36px;
     line-height: 40px;
@@ -106,7 +104,7 @@ header{
 }
 
 .gray{
-    background-color: rgba(190, 190, 190, 0.437);
+    background-color: #F5F5F5;
 }
 
 /* Ultima sezione(diversa dalle altre) */
@@ -131,18 +129,20 @@ header{
 .end-section{
     margin-top: 40px;
     text-align: center;
+    font-size: 22px;
 }
 
-.end-section :last-child{
-    background-color: rgb(24, 59, 252);
+.end-section .button{
+    background-color: #7289DA;
     color: white;
     margin-top: 30px;
+    padding: 8px;
     
 }
 
 /* Inizio del footer */
 footer{
-    background-color: rgb(20, 20, 55);
+    background-color: #23272A;
 }
 
 .footer-flex{
@@ -153,18 +153,34 @@ footer{
     color: white;
 }
 
-img.italiano {
-    width: 20px;
-    margin-top: 20px;
+.italia img {
+    width: 24px;
+    
+}
+
+#italiano{
+    margin-left: 5px;
     margin-right: 5px;
+}
+
+.italia{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
 }
 
 .social{
     width: 25%;
 }
 
+.icone-social{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .social h3{
-    color:rgb(86, 97, 223) ;
+    color:#7289D9 ;
     font-size: 30px;
     line-height: 34px;
 }
@@ -181,18 +197,18 @@ img.italiano {
 }
 
 .nav-footer li{
-    color:rgb(86, 97, 223) ;
+    color:#7289D9 ;
 }
 
 .footer-logo{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
     padding-bottom: 30px;
 }
 
 .footer-logo .button{
-    background-color: rgb(24, 59, 252);
+    background-color: #7289DA;
     color: white;
 }
 
