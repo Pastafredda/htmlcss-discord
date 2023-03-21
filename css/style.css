@@ -94,8 +94,11 @@ header{
 .descrizione{
     width: 30%;
     padding-top: 30px;
+    line-height: 24px;
     
 }
+
+
 
 .descrizione h2{
     font-size: 36px;
@@ -147,7 +150,7 @@ footer{
 
 .footer-flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 30px;
     margin-bottom: 20px;
     color: white;
@@ -170,13 +173,14 @@ footer{
 }
 
 .social{
-    width: 25%;
+    width: 20%;
 }
 
 .icone-social{
     width: 140px;
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
 }
 
 .social h3{
@@ -188,7 +192,7 @@ footer{
 .nav-footer{
     list-style-type: none;
     line-height: 34px;
-    width: 20%;
+    
 }
 
 .nav-footer a{
@@ -205,10 +209,17 @@ footer{
     justify-content: space-between;
     margin-top: 20px;
     padding-bottom: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #7289D9;
 }
 
 .footer-logo .button{
     background-color: #7289DA;
     color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    
 }
 
