@@ -1,0 +1,184 @@
+/* Regole Generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* Regole Header */
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding-top: 10px;
+
+    
+}
+
+.centratura{
+    width: 80%;
+    margin: auto;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-bottom: 120px;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 400px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.button{
+    border-radius: 14px;
+    border: none;
+    background-color: white;
+    padding: 5px 8px;
+    
+}
+
+.hero{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    line-height: 24px;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.hero p{
+    margin-bottom: 10px;
+}
+
+.hero :first-child{
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+
+.hero .button{
+    padding: 10px;
+    margin: 10px;
+}
+
+.hero :last-child{
+    background-color: black;
+    color: white;
+}
+
+/* Parte del main */
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+   
+}
+
+
+.immagine{
+    width: 60%;
+
+}
+
+.descrizione{
+    width: 30%
+}
+.descrizione h2{
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.gray{
+    background-color: rgba(190, 190, 190, 0.437);
+}
+
+/* Ultima sezione(diversa dalle altre) */
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+
+.column h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.column p{
+    line-height: 22px;
+    margin-bottom: 50px;
+}
+
+.end-section{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.end-section :last-child{
+    background-color: rgb(24, 59, 252);
+    color: white;
+    margin-top: 30px;
+    
+}
+
+/* Inizio del footer */
+footer{
+    background-color: rgb(20, 20, 55);
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.social{
+    line-height: 24px;
+}
+
+.social h3{
+    color:rgb(86, 97, 223) ;
+    font-size: 30px;
+}
+
+
+
+.nav-footer{
+    list-style-type: none;
+    line-height: 34px;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer-logo .button{
+    background-color: rgb(24, 59, 252);
+    color: white;
+}
+
